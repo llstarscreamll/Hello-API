@@ -11,3 +11,7 @@ storage/logs/laravel.log
 /public/api-markdowns/
 /public/uploads/
 /laradock*/
+
+## ignore public assets
+public/*/*
+public/mix-manifest.json
