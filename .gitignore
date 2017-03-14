@@ -11,3 +11,18 @@ storage/logs/laravel.log
 /public/api-markdowns/
 /public/uploads/
 /laradock*/
+
+## track default containers only
+!app/Containers
+app/Containers/*
+!app/Containers/Authentication
+!app/Containers/Authorization
+!app/Containers/Country
+!app/Containers/Debugger
+!app/Containers/Documentation
+!app/Containers/Localization
+!app/Containers/Settings
+!app/Containers/Socialauth
+!app/Containers/Stripe
+!app/Containers/User
+!app/Containers/Welcome
